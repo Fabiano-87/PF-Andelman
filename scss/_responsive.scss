@@ -1,0 +1,25 @@
+@media (max-width: 1570px) {
+    section {
+        padding: 80px 3%;
+        transition: 0.2s;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1090px) {
+    .contact {
+        grid-gap: 2rem;
+        transition: 0.3s;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact {
+        grid-template-columns: 1fr;
+    }
+}
