@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="index.html">
-                <img class="d-inline-block align-top bg-dark" src="assets/logo1.png" alt="logo" width="120" height="60">
+                <img class="logo d-inline-block align-top bg-dark" src="assets/logo.png" alt="logo" width="120" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +36,7 @@
         </nav>
     </header>
     <div class="image-container">
-        <img src="assets/biohack.jpg" alt="Biohack Image" class="image">
+        <img src="assets/biohack.jpeg" alt="Biohack Image" class="image">
     </div>
     <main>
         <section class="container">
@@ -52,7 +53,7 @@
         </section>
         <h1 class="prod-name text-center">Products</h1>
         <section class="container custom-section">
-            <div class="d-flex justify-content-around flex-wrap">
+            <div class="d-flex justify-content-around flex-wrap" data-aos="flip-up">
                 <div class="card flex-fill m-2">
                     <img src="assets/redpanel2.jpg" class="card-img-top" alt="Red panel device">
                     <div class="card-body d-flex flex-column">
@@ -98,6 +99,10 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

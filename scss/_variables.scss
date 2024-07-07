@@ -1,0 +1,26 @@
+$colors: (
+  black: hsl(0, 0%, 0%),
+  white: #ffffff,
+  red: #e70000,
+  light-grey: #d3d3d3
+);
+
+$font-sizes: (
+  small: 16px,
+  medium: 18px,
+  large: 26px,
+  xlarge: 52px
+);
+
+$font-families: (
+  rubik: "Rubik, sans-serif",
+  roboto: "Roboto, sans-serif"
+);
+
+$primary-color: #ffffff;
+$secondary-color: #e6e6e6;
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h1-margin: 1rem 0;
+$h2-margin: 0.75rem 0;

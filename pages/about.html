@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About</title>
@@ -15,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="../index.html">
-                <img class="d-inline-block align-top bg-dark" src="../assets/logo1.png" alt="logo" width="120" height="60">
+                <img class="logo d-inline-block align-top bg-dark" src="../assets/logo.png" alt="logo" width="120" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,7 +33,7 @@
         </nav>
     </header>
     <div class="image-container">
-        <img src="../assets/biohack.jpg" alt="Biohack Image" class="image">
+        <img src="../assets/biohack.jpeg" alt="Biohack Image" class="image">
     </div>
     <main>
         <h1 class="prod-name text-center">About us</h1>
@@ -41,7 +42,7 @@
                 <div class="col-md-12 text-center">
                     <img class="about-pic" src="../assets/banner.png" alt="Biohack Image">
                 </div>
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center" data-aos="zoom-in-up">
                     <p class="p-desc text-white">Welcome to BioXcel, your gateway to unlocking the full potential of your biology.
                     At BioXcel, we're passionate about harnessing cutting-edge biotechnology to empower individuals to optimize their health, performance, and well-being. Our mission is to democratize biohacking, making advanced tools and techniques accessible to everyone seeking to enhance their lives. 
                     Whether you're a professional athlete striving for peak performance, a biohacker exploring the limits of human potential, or simply someone committed to living your best life, we're here to support you on your journey. From personalized supplements and wearable devices to innovative biofeedback technologies, our curated selection of products is designed to help you achieve your goals and elevate your everyday experience. At BioXcel, we believe that by understanding and optimizing our biology, we can unlock new levels of vitality, resilience, and fulfillment. Join us in redefining what it means to thrive.</p>
@@ -61,16 +62,16 @@
                 <a href="../index.html">Home</a>
             </li>
             <li>
-                <a href="../pages/about.html">About</a>
+                <a href="pages/about.html">About</a>
             </li>
             <li>
-                <a href="../pages/contact.html">Contact Us</a>
+                <a href="pages/contact.html">Contact Us</a>
             </li>
             <li>
-                <a href="../pages/products.html">Products</a>
+                <a href="pages/products.html">Products</a>
             </li>
             <li>
-                <a href="../pages/faqs.html">Faqs</a>
+                <a href="pages/faqs.html">Faqs</a>
             </li>
         </ul>
         <p class="copyright">
@@ -80,5 +81,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

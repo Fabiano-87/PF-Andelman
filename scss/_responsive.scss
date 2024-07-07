@@ -1,25 +1,34 @@
+@import 'mixins';
+
 @media (max-width: 1570px) {
-    section {
-        padding: 80px 3%;
-        transition: 0.2s;
-    }
+  section {
+    padding: 80px 3%;
+    @include transition(0.2s);
+  }
 }
 
 @media (max-width: 768px) {
-    .contact .row {
-        flex-direction: column;
-    }
+  .contact .row {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1090px) {
-    .contact {
-        grid-gap: 2rem;
-        transition: 0.3s;
-    }
+  .contact {
+    grid-gap: 2rem;
+    @include transition(0.3s);
+  }
 }
 
 @media (max-width: 1000px) {
-    .contact {
-        grid-template-columns: 1fr;
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+    .navbar .logo {
+        height: 40px; 
+        margin-right: 10px;
     }
 }
