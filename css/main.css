@@ -351,9 +351,9 @@ footer ul li {
   }
 }
 @media (max-width: 768px) {
-  .biohacking-text .p-desc {
+  .row {
     max-width: 90%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.6;
     margin: 15px auto;
     padding: 0 0.75rem;
@@ -361,9 +361,9 @@ footer ul li {
   }
 }
 @media (max-width: 480px) {
-  .biohacking-text .p-desc {
+  .row {
     max-width: 95%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.7;
     margin: 10px auto;
     padding: 0 0.5rem;
