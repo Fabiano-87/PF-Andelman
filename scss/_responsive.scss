@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 480px) {
-  .p-desc {
+  .biohacking-text .p-desc {
     width: 100%; 
     font-size: map-get($font-sizes, x-small); 
     line-height: 1.3; 
