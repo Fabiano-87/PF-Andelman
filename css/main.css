@@ -370,14 +370,12 @@ footer ul li {
   body .bio-body {
     transform: scale(0.5);
     transform-origin: top left;
-    transition: transform 0.3s ease;
   }
 }
 @media (max-width: 480px) {
   body .bio-body {
     transform: scale(0.5);
     transform-origin: top left;
-    transition: transform 0.3s ease;
   }
 }
 @media (max-width: 768px) {
