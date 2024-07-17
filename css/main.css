@@ -362,9 +362,18 @@ footer ul li {
 @media (max-width: 480px) {
   .biohacking-text .p-desc {
     width: 100%;
-    transform: scale(0.5);
     line-height: 1.4;
     margin: 10px auto;
+  }
+}
+@media (max-width: 768px) {
+  .row {
+    transform: scale(0.5);
+  }
+}
+@media (max-width: 480px) {
+  .row {
+    transform: scale(0.5);
   }
 }
 @media (max-width: 768px) {
