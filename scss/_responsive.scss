@@ -52,16 +52,16 @@
 
 @media (max-width: 768px) {
   body .bio-body {
-    transform: scale(0.5); 
-    transform-origin: top left; 
-    }
+    padding: 20px;  
+    font-size: 0.9em;
   }
+}
 
 
 @media (max-width: 480px) {
   body .bio-body {
-    transform: scale(0.5); 
-    transform-origin: top left;  
+    padding: 10px;  
+    font-size: 0.8em;  
     }
   }
 
