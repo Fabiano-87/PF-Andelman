@@ -1,6 +1,3 @@
-@import 'variables';
-@import 'mixins';
-
 .card {
   @include flex-center(column, space-between, center);
   text-align: center;
