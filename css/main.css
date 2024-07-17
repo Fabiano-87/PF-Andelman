@@ -353,6 +353,7 @@ footer ul li {
 @media (max-width: 768px) {
   .row {
     max-width: 90%;
+    max-height: 85%;
     font-size: 0.8rem;
     line-height: 1.6;
     margin: 15px auto;
@@ -363,7 +364,8 @@ footer ul li {
 @media (max-width: 480px) {
   .row {
     max-width: 95%;
-    font-size: 0.7rem;
+    max-height: 85%;
+    font-size: 0.5rem;
     line-height: 1.7;
     margin: 10px auto;
     padding: 0 0.5rem;
