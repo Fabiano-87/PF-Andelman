@@ -367,13 +367,17 @@ footer ul li {
   }
 }
 @media (max-width: 768px) {
-  .row {
+  .body {
     transform: scale(0.5);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
   }
 }
 @media (max-width: 480px) {
-  .row {
+  .body {
     transform: scale(0.5);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
   }
 }
 @media (max-width: 768px) {
