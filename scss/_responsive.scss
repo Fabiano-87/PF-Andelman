@@ -37,7 +37,9 @@
     transform: scale(0.5);
     font-size: map-get($font-sizes, small); 
     line-height: 1.5; 
-    margin: 15px auto;  
+    margin: 15px auto;
+    padding: 20px;
+    letter-spacing: 0.04em;    
   }
 }
 
@@ -47,6 +49,10 @@
     font-size: map-get($font-sizes, x-small); 
     line-height: 1.4; 
     margin: 10px auto; 
+    padding: 20px;  
+    font-size: 0.7em;
+    padding: 10px;
+    letter-spacing: 0.03em;  
   }  
 }
 
