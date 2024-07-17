@@ -34,22 +34,20 @@
 @media (max-width: 768px) {
   .biohacking-text .p-desc {
     width: 90%; 
+    transform: scale(0.5);
     font-size: map-get($font-sizes, small); 
     line-height: 1.5; 
-    margin: 15px auto; 
-    transform: scale(0.5); 
-    transition: transform 0.3s ease;
+    margin: 15px auto;  
   }
 }
 
 @media (max-width: 480px) {
   .biohacking-text .p-desc {
     width: 100%; 
+    transform: scale(0.5);
     font-size: map-get($font-sizes, x-small); 
     line-height: 1.4; 
     margin: 10px auto; 
-    transform: scale(0.5); 
-    transition: transform 0.3s ease;
   }  
 }
 
