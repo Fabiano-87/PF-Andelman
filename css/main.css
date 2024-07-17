@@ -369,13 +369,13 @@ footer ul li {
 @media (max-width: 768px) {
   body .bio-body {
     padding: 20px;
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 }
 @media (max-width: 480px) {
   body .bio-body {
     padding: 10px;
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
 }
 @media (max-width: 768px) {
