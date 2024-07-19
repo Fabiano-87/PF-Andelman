@@ -173,6 +173,10 @@ main {
   object-fit: cover;
 }
 
+.img-fluid {
+  @include border-radius(6px);
+}
+
 .container {
     border-bottom: 1px solid #e1e8ee;
 }
